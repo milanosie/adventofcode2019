@@ -1,0 +1,11 @@
+/Users/milansteenwinkel/Desktop/projects/advent/day2/AdventDay2/AdventDay2/bin/Debug/netcoreapp2.2/AdventDay2.deps.json
+/Users/milansteenwinkel/Desktop/projects/advent/day2/AdventDay2/AdventDay2/bin/Debug/netcoreapp2.2/AdventDay2.runtimeconfig.json
+/Users/milansteenwinkel/Desktop/projects/advent/day2/AdventDay2/AdventDay2/bin/Debug/netcoreapp2.2/AdventDay2.runtimeconfig.dev.json
+/Users/milansteenwinkel/Desktop/projects/advent/day2/AdventDay2/AdventDay2/bin/Debug/netcoreapp2.2/AdventDay2.dll
+/Users/milansteenwinkel/Desktop/projects/advent/day2/AdventDay2/AdventDay2/bin/Debug/netcoreapp2.2/AdventDay2.pdb
+/Users/milansteenwinkel/Desktop/projects/advent/day2/AdventDay2/AdventDay2/obj/Debug/netcoreapp2.2/AdventDay2.csprojAssemblyReference.cache
+/Users/milansteenwinkel/Desktop/projects/advent/day2/AdventDay2/AdventDay2/obj/Debug/netcoreapp2.2/AdventDay2.csproj.CoreCompileInputs.cache
+/Users/milansteenwinkel/Desktop/projects/advent/day2/AdventDay2/AdventDay2/obj/Debug/netcoreapp2.2/AdventDay2.AssemblyInfoInputs.cache
+/Users/milansteenwinkel/Desktop/projects/advent/day2/AdventDay2/AdventDay2/obj/Debug/netcoreapp2.2/AdventDay2.AssemblyInfo.cs
+/Users/milansteenwinkel/Desktop/projects/advent/day2/AdventDay2/AdventDay2/obj/Debug/netcoreapp2.2/AdventDay2.dll
+/Users/milansteenwinkel/Desktop/projects/advent/day2/AdventDay2/AdventDay2/obj/Debug/netcoreapp2.2/AdventDay2.pdb
