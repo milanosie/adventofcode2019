@@ -51,7 +51,6 @@ namespace AdventDay2
                     switch (inputNumbers[currentIndex])
                     {
                         case 1:
-                            //TODO make sure the if statement works, then it should work I think?
                             if (inputNumbers.Length >= currentIndex + 4)
                             {
                                 inputNumbers[inputNumbers[currentIndex + 3]] =
