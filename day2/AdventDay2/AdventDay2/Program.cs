@@ -30,9 +30,8 @@ namespace AdventDay2
                     var result = doCalculate(input, n, v);
                     if (result == 19690720)
                     {
-                        Console.WriteLine(100 * n +  v);
+                        Console.WriteLine(100 * n + v);
                     }
-                    
                 }
             }
         }
@@ -46,54 +45,45 @@ namespace AdventDay2
             inputNumbers[2] = verb;
             while (shouldContinue)
             {
-                try
+                switch (inputNumbers[currentIndex])
                 {
-                    switch (inputNumbers[currentIndex])
-                    {
-                        case 1:
-                            if (inputNumbers.Length >= currentIndex + 4)
-                            {
-                                inputNumbers[inputNumbers[currentIndex + 3]] =
-                                    inputNumbers[inputNumbers[currentIndex + 1]] +
-                                    inputNumbers[inputNumbers[currentIndex + 2]];
-                                currentIndex += 4;
-                            }
-                            else
-                            {
-                                shouldContinue = false;
-                                hasError = true;
-                            }
-
-                            break;
-                        case 2:
-                            if (inputNumbers.Length >= currentIndex + 4)
-                            {
-                                inputNumbers[inputNumbers[currentIndex + 3]] =
-                                    inputNumbers[inputNumbers[currentIndex + 1]] *
-                                    inputNumbers[inputNumbers[currentIndex + 2]];
-                                currentIndex += 4;
-                            }
-                            else
-                            {
-                                shouldContinue = false;
-                                hasError = true;
-                            }
-
-                            break;
-                        case 99:
+                    case 1:
+                        if (inputNumbers.Length >= currentIndex + 4)
+                        {
+                            inputNumbers[inputNumbers[currentIndex + 3]] =
+                                inputNumbers[inputNumbers[currentIndex + 1]] +
+                                inputNumbers[inputNumbers[currentIndex + 2]];
+                            currentIndex += 4;
+                        }
+                        else
+                        {
                             shouldContinue = false;
-                            break;
-                        default:
+                        }
+
+                        break;
+                    case 2:
+                        if (inputNumbers.Length >= currentIndex + 4)
+                        {
+                            inputNumbers[inputNumbers[currentIndex + 3]] =
+                                inputNumbers[inputNumbers[currentIndex + 1]] *
+                                inputNumbers[inputNumbers[currentIndex + 2]];
+                            currentIndex += 4;
+                        }
+                        else
+                        {
                             shouldContinue = false;
-                            hasError = true;
-                            break;
-                    }
-                }
-                catch
-                {
-                    return -1;
+                        }
+
+                        break;
+                    case 99:
+                        shouldContinue = false;
+                        break;
+                    default:
+                        shouldContinue = false;
+                        break;
                 }
             }
+
             return inputNumbers[0];
         }
     }
