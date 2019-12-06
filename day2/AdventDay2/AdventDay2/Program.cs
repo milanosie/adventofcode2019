@@ -10,7 +10,7 @@ namespace AdventDay2
             {
                 for (var v = 0; v < 99; v++)
                 {
-                    int[] input = new int[]
+                    int[] input = 
                     {
                         1, 0, 0, 3, 1, 1, 2, 3, 1, 3, 4, 3, 1, 5, 0, 3, 2, 13, 1, 19, 1, 19, 6, 23, 1, 23, 6, 27, 1, 13,
                         27, 31,
