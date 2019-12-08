@@ -17,6 +17,7 @@ namespace day3
         {
             List<List<Position>> path = new List<List<Position>>();
             List<int> manhattenResults = new List<int>();
+            List<int>stepResults = new List<int>();
             path.Add(new List<Position>());
             path.Add(new List<Position>());
             path[0].Add(new Position{x = 0, y = 0});
@@ -165,6 +166,7 @@ namespace day3
                 }
             }
 
+            //PART 1
             foreach (var position1 in path[0])
             {
                 foreach (var position2 in path[1])
@@ -181,6 +183,23 @@ namespace day3
                 }
             }
             Console.WriteLine(manhattenResults.Min());
+            
+            //PART 2
+            for (int i = 0; i < path[0].Count; i++)
+            {
+                for (int p = 0; p < path[1].Count; p++)
+                {
+                    if (path[0][i].x == path[1][p].x && path[0][i].y == path[1][p].y)
+                    {
+                        if (path[0][i].x != 0 || path[0][i].y != 0)
+                        {
+                          stepResults.Add(i + p);
+                          Console.WriteLine(i + p);
+                        }
+                    }
+                }
+            }
+            Console.WriteLine(stepResults.Min());
         }
         
         public static int CalculateManhattanDistance(Position position)
