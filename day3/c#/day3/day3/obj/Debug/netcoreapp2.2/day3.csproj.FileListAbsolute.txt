@@ -1,0 +1,11 @@
+/Users/milansteenwinkel/Desktop/projects/advent/day3/c#/day3/day3/bin/Debug/netcoreapp2.2/day3.deps.json
+/Users/milansteenwinkel/Desktop/projects/advent/day3/c#/day3/day3/bin/Debug/netcoreapp2.2/day3.runtimeconfig.json
+/Users/milansteenwinkel/Desktop/projects/advent/day3/c#/day3/day3/bin/Debug/netcoreapp2.2/day3.runtimeconfig.dev.json
+/Users/milansteenwinkel/Desktop/projects/advent/day3/c#/day3/day3/bin/Debug/netcoreapp2.2/day3.dll
+/Users/milansteenwinkel/Desktop/projects/advent/day3/c#/day3/day3/bin/Debug/netcoreapp2.2/day3.pdb
+/Users/milansteenwinkel/Desktop/projects/advent/day3/c#/day3/day3/obj/Debug/netcoreapp2.2/day3.csprojAssemblyReference.cache
+/Users/milansteenwinkel/Desktop/projects/advent/day3/c#/day3/day3/obj/Debug/netcoreapp2.2/day3.csproj.CoreCompileInputs.cache
+/Users/milansteenwinkel/Desktop/projects/advent/day3/c#/day3/day3/obj/Debug/netcoreapp2.2/day3.AssemblyInfoInputs.cache
+/Users/milansteenwinkel/Desktop/projects/advent/day3/c#/day3/day3/obj/Debug/netcoreapp2.2/day3.AssemblyInfo.cs
+/Users/milansteenwinkel/Desktop/projects/advent/day3/c#/day3/day3/obj/Debug/netcoreapp2.2/day3.dll
+/Users/milansteenwinkel/Desktop/projects/advent/day3/c#/day3/day3/obj/Debug/netcoreapp2.2/day3.pdb
