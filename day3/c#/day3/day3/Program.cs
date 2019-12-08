@@ -204,7 +204,7 @@ namespace day3
         
         public static int CalculateManhattanDistance(Position position)
         {
-            return Math.Abs(position.x - 0) + Math.Abs(position.y - 0);
+            return Math.Abs(position.x) + Math.Abs(position.y);
         }
     }
 }
